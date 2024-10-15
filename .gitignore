@@ -19,6 +19,7 @@
 # misc
 .DS_Store
 *.pem
+*.css.map
 
 # debug
 npm-debug.log*
