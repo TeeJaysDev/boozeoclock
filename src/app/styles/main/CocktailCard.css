@@ -1,0 +1,23 @@
+.CocktailCard {
+  width: 225px;
+  height: 400px;
+  background-color: var(--darkergray);
+  margin-left: 10rem;
+}
+.CocktailCard .CocktailCard-sameLine {
+  width: 85%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.CocktailCard .CocktailCard-sameLine .CocktailCard-category {
+  font-family: Inter;
+  font-weight: 500;
+  color: var(--red);
+  margin-left: 1rem;
+}
+.CocktailCard .CocktailCard-name {
+  font-family: Inter;
+  margin: 0.5rem auto auto 1rem;
+}/*# sourceMappingURL=CocktailCard.css.map */
