@@ -1,11 +1,11 @@
 import Navbar from "./components/nav/Navbar";
 import Main from "./components/main/Main";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <nav>
-        <Navbar/>
+        <Navbar />
       </nav>
       <main>
         <Main />
@@ -15,6 +15,6 @@ const Home = () => {
       </footer>
     </div>
   );
-}
+};
 
 export default Home;

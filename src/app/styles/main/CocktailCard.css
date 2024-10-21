@@ -1,23 +1,22 @@
 .CocktailCard {
-  width: 225px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   background-color: var(--darkergray);
-  margin-left: 10rem;
 }
 .CocktailCard .CocktailCard-sameLine {
   width: 85%;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 .CocktailCard .CocktailCard-sameLine .CocktailCard-category {
-  font-family: Inter;
   font-weight: 500;
+  font-size: 1.25rem;
   color: var(--red);
   margin-left: 1rem;
 }
 .CocktailCard .CocktailCard-name {
-  font-family: Inter;
-  margin: 0.5rem auto auto 1rem;
+  font-size: 1.6rem;
+  margin: 1.3rem auto auto 1rem;
 }/*# sourceMappingURL=CocktailCard.css.map */

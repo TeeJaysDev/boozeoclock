@@ -6,7 +6,7 @@ import "../../styles/main/CocktailCard.css";
 const CocktailCard = ({ img, category, name }) => {
     return (
         <div className="CocktailCard">
-            <Image src={img} width="225" height="225" alt="cocktail image" className="CocktailCard-cocktailImage" />
+            <Image src={img} width="250" height="250" alt="cocktail image" className="CocktailCard-cocktailImage" />
             <div className="CocktailCard-sameLine">
                 <h4 className="CocktailCard-category">{category}</h4>
                 <Image src={heart} width="25" height="25" alt="cocktail image" className="CocktailCard-heartImage" />
