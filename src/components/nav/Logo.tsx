@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import "../../styles/nav/Logo.css"
-import sangria from '../../assets/icons8-sangria-64.png'
+import sangria from '../../../public/icons8-sangria-64.png'
 
 const Logo = () => {
   return (

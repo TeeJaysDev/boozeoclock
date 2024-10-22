@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heart from "../../assets/icons8-heart-white.png"
+import heart from "../../../public/icons8-heart-white.png"
 import "../../styles/main/CocktailCard.css";
 
 const CocktailCard = ({ img, category, name }) => {

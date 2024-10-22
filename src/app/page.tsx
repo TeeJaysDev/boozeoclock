@@ -1,5 +1,5 @@
-import Navbar from "./components/nav/Navbar";
-import Main from "./components/main/Main";
+import Navbar from "../components/nav/Navbar";
+import Main from "../components/main/Main";
 
 const Home: React.FC = () => {
   return (
@@ -10,9 +10,7 @@ const Home: React.FC = () => {
       <main>
         <Main />
       </main>
-      <footer>
-        
-      </footer>
+      <footer></footer>
     </div>
   );
 };

@@ -31,7 +31,7 @@
 }
 #SearchBar #SearchBar-button:before {
   padding: 10px;
-  content: url(../../assets/icons8-magnifying-glass.png);
+  content: url(../../../public/icons8-magnifying-glass.png);
 }
 @media only screen and (max-width: 660px) {
   #SearchBar #SearchBar-button {

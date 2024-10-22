@@ -1,12 +1,12 @@
 #Main-h1 {
   font-size: 3rem;
   font-weight: 800;
-  margin: 10rem auto 5rem 13rem;
+  margin-bottom: 5rem;
 }
 
 #Main-div {
   display: grid;
   grid-template-columns: repeat(6, 19rem) !important;
   grid-gap: 2rem 0rem;
-  margin: 0rem 0rem 10rem 13rem;
+  margin-bottom: 10rem;
 }/*# sourceMappingURL=Main.css.map */

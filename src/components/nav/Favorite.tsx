@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import favorite from '../../assets/icons8-heart-white.png'
+import favorite from "../../../public/icons8-heart-white.png";
 import "../../styles/nav/Favorite.css"
 
 const Favorite = () => {

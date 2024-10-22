@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import filter from '../../assets/icons8-filter.png'
+import filter from '../../../public/icons8-filter.png'
 import "../../styles/nav/Filter.css"
 
 const Filter = () => {

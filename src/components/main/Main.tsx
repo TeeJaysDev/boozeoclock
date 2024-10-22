@@ -1,6 +1,6 @@
 import React from "react";
-import GetCocktails from "../../API/GetCocktails";
-import Pagination from "../main/Pagination";
+import GetCocktails from "../../api/GetCocktails";
+import Pagination from "./Pagination";
 import "../../styles/main/Main.css";
 
 const Main: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import sort from '../../assets/icons8-sort.png'
+import sort from '../../../public/icons8-sort.png'
 import "../../styles/nav/Sort.css"
 
 const Sort = () => {
