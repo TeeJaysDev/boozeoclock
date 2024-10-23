@@ -1,9 +1,11 @@
 import Navbar from "../components/nav/Navbar";
 import "./globals.css";
 import { Roboto } from "next/font/google";
+
 export const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-roboto", // Define custom variable for Roboto
 });
 
 interface RootLayoutProps {
@@ -12,8 +14,8 @@ interface RootLayoutProps {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
-    <html lang="en">
-      <body className={roboto.className}>
+    <html lang="en" className={roboto.variable}> {/* Apply the font variable to html */}
+      <body>
         <nav>
           <Navbar />
         </nav>
