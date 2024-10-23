@@ -1,7 +1,15 @@
-const page = ({ params }) => {
-  return (
-    <div>hello {params.coctailId}</div>
-  )
+interface PageProps {
+  params: {
+    coctailId: string;
+  };
 }
 
-export default page
+const Page: React.FC<PageProps> = ({ params }) => {
+  return (
+    <div>
+      hello {params.coctailId}
+    </div>
+  );
+}
+
+export default Page;
