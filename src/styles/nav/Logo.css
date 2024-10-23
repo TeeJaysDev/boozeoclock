@@ -1,9 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 #Logo {
-  margin: -0.5rem auto auto -16rem;
+  margin-top: -0.5rem;
 }
 #Logo #Logo-h1 {
   display: inline-block;
   font-family: "Lobster", sans-serif;
   font-size: 3rem;
+}
+@media only screen and (max-width: 887px) {
+  #Logo #Logo-h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  #Logo {
+    scale: 0.8;
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 887px) {
+  #Logo {
+    scale: 0.7;
+  }
 }/*# sourceMappingURL=Logo.css.map */

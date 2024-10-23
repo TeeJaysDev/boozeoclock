@@ -1,6 +1,5 @@
 "use client";
-import React from "react";
-import "../../styles/main/Pagination.css"
+import "../../styles/landingpage/Pagination.css"
 
 const Pagination = () => {
   return (

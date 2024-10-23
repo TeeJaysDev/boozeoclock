@@ -1,0 +1,74 @@
+#Main-h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    #Main-h1 {
+        scale: 0.95;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #Main-h1 {
+        margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #Main-h1 {
+        scale: 0.8;
+        margin-bottom: -3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #Main-h1 {
+        scale: 0.5;
+    }
+}
+
+#Main-div {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem) !important;
+    grid-gap: 2rem 0rem;
+    margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 1440px) {
+    #Main-div {
+        grid-template-columns: repeat(3, 20rem) !important;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #Main-div {
+        scale: 0.95;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #Main-div {
+        grid-template-columns: repeat(3, 17rem) !important;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #Main-div {
+        grid-template-columns: repeat(2, 19rem) !important;
+    }
+}
+
+@media only screen and (max-width: 887px) {
+    #Main-div {
+        grid-template-columns: repeat(2, 16rem) !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #Main-div {
+        grid-template-columns: repeat(1, 18rem) !important;
+        scale: 1;
+    }
+}

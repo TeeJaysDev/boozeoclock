@@ -1,16 +1,11 @@
-import Navbar from "../components/nav/Navbar";
-import Main from "../components/main/Main";
+import LandingPage from "../components/landingpage/LandingPage";
 
 const Home: React.FC = () => {
   return (
     <div>
-      <nav>
-        <Navbar />
-      </nav>
       <main>
-        <Main />
+        <LandingPage />
       </main>
-      <footer></footer>
     </div>
   );
 };

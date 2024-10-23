@@ -1,4 +1,3 @@
-import React from "react";
 import Favorite from "./Favorite";
 import Filter from "./Filter";
 import Logo from "./Logo";
