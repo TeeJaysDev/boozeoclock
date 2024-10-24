@@ -1,15 +1,17 @@
-interface PageProps {
+import CocktailPage from "../../../components/cocktails/CocktailPage"
+
+interface CocktailPageProps {
   params: {
     coctailId: string;
   };
 }
 
-const Page: React.FC<PageProps> = ({ params }) => {
+const Cocktails: React.FC<CocktailPageProps> = ({ params }) => {
   return (
-    <div>
-      hello {params.coctailId}
-    </div>
+    <main>
+      <CocktailPage />
+    </main>
   );
-}
+};
 
-export default Page;
+export default Cocktails;

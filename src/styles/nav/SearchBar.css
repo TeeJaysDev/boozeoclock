@@ -5,7 +5,7 @@
 }
 #SearchBar #SearchBar-input {
   background-color: var(--darkergray);
-  padding-left: 0.5rem;
+  padding-left: 30px !important;
   width: 25rem;
   height: 3rem;
   border-radius: 7px 0px 0px 7px;

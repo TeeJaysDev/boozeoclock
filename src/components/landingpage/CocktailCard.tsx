@@ -1,16 +1,23 @@
 import Image from "next/image";
-import Link from "next/link";
+import Button from "../Button";
 import heart from "../../../public/icons8-heart-white.png";
+import "../../styles/Button.css"
 import "../../styles/landingpage/CocktailCard.css";
+import GetCocktailsInfo from "@/api/GetCocktailsInfo";
 
-interface CocktailCardProps {
+export interface CocktailCardProps {
   id: string;
   img: string;
   category: string;
   name: string;
 }
 
-const CocktailCard: React.FC<CocktailCardProps> = ({ id, img, category, name }) => {
+const CocktailCard: React.FC<CocktailCardProps> = ({
+  id,
+  img,
+  category,
+  name,
+}) => {
   return (
     <div className="CocktailCard">
       <Image
@@ -21,9 +28,7 @@ const CocktailCard: React.FC<CocktailCardProps> = ({ id, img, category, name }) 
         className="CocktailCard-cocktailImage"
       />
       <div className="CocktailCard-sameLine">
-        <h4 className="CocktailCard-category">
-          {category !== "Punch / Party Drink" ? category : "Punch"}
-        </h4>
+        <h4 className="CocktailCard-category">{category}</h4>
         <Image
           src={heart}
           width="25"
@@ -33,9 +38,7 @@ const CocktailCard: React.FC<CocktailCardProps> = ({ id, img, category, name }) 
         />
       </div>
       <h2 className="CocktailCard-name">{name}</h2>
-      <Link href={`/cocktails/${id}`}>
-        <button className="CocktailCard-button">View</button>
-      </Link>
+      <Button url={`/cocktails/${id}`} message="View" />
     </div>
   );
 };

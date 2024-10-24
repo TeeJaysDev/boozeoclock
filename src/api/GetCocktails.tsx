@@ -21,7 +21,7 @@ const GetCocktails: React.FC = () => {
     };
 
     fetch(
-      `https://cocktails.solvro.pl/api/v1/cocktails/?page=1&perPage=18`,
+      `https://cocktails.solvro.pl/api/v1/cocktails/?page=1&perPage=12`,
       options
     )
       .then((response) => response.json())

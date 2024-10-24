@@ -2,11 +2,9 @@ import LandingPage from "../components/landingpage/LandingPage";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <main>
+      <main id="Home-main">
         <LandingPage />
       </main>
-    </div>
   );
 };
 
