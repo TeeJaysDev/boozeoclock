@@ -3,7 +3,6 @@ import Button from "../Button";
 import heart from "../../../public/icons8-heart-white.png";
 import "../../styles/Button.css"
 import "../../styles/landingpage/CocktailCard.css";
-import GetCocktailsInfo from "@/api/GetCocktailsInfo";
 
 export interface CocktailCardProps {
   id: string;
@@ -38,7 +37,7 @@ const CocktailCard: React.FC<CocktailCardProps> = ({
         />
       </div>
       <h2 className="CocktailCard-name">{name}</h2>
-      <Button url={`/cocktails/${id}`} message="View" />
+      <Button url={"/cocktails"} id={id} message="View" />
     </div>
   );
 };

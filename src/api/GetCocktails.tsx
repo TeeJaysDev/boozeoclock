@@ -26,7 +26,6 @@ const GetCocktails: React.FC = () => {
     )
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
         setCocktailsList(json.data || []);
       })
       .catch((err) => console.error(err));

@@ -5,10 +5,11 @@ import "../../styles/Button.css";
 import "../../styles/cocktails/CocktailPage.css";
 
 interface CocktailPageProps {
-  id: number;
+  id: string;
   img: string;
   category: string;
   name: string;
+  ingredients: { measure: string; name: string }[];
   glass: string;
   recipe: string;
 }
@@ -17,8 +18,10 @@ const CocktailPage: React.FC<CocktailPageProps> = ({
   img,
   category,
   name,
+  ingredients,
   glass,
   recipe,
+  
 }) => {
   return (
     <div id="CocktailPage-div">
@@ -50,15 +53,17 @@ const CocktailPage: React.FC<CocktailPageProps> = ({
         />
         <h3 className="CocktailPage-h3">Ingredients</h3>
         <ul id="CocktailPage-ul">
-          <li className="CocktailPage-li CocktailPage-p">1oz vodka</li>
-          <li className="CocktailPage-li CocktailPage-p">2.5oz rum</li>
-          <li className="CocktailPage-li CocktailPage-p">1/2oz lemon</li>
+          {ingredients.map((ingredient, index) => (
+            <li key={index} className="CocktailPage-li CocktailPage-p">
+              {ingredient.measure} {ingredient.name}
+            </li>
+          ))}
         </ul>
         <h3 className="CocktailPage-h3">Glass</h3>
         <p className="CocktailPage-p">{glass}</p>
         <h3 className="CocktailPage-h3">Recipe</h3>
         <p className="CocktailPage-p">{recipe}</p>
-        <Button url="/" message="Back" />
+        <Button url="/" id="" message="Back" />
       </div>
     </div>
   );
