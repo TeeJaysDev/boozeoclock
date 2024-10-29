@@ -65,6 +65,12 @@
                 }
             }
 
+            @media only screen and (max-width: 400px) {
+                #CocktailPage-category {
+                    margin-right: 3rem;
+                }
+            }
+
         }
 
         #CocktailPage-name {
@@ -81,6 +87,12 @@
         @media only screen and (max-width: 600px) {
             #CocktailPage-name {
                 font-size: 2.25rem;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            #CocktailPage-name {
+                font-size: 2rem;
             }
         }
 
@@ -117,6 +129,13 @@
             }
         }
 
+        @media only screen and (max-width: 400px) {
+            #CocktailPage-Image-2 {
+                width: 250px;
+                height: 250px;
+            }
+        }
+
         .CocktailPage-h3 {
             margin-top: 2rem;
             margin-bottom: 1rem;
@@ -146,7 +165,12 @@
         .CocktailPage-p {
             font-size: 1.5rem;
             width: 25ch;
-            max-width: 40ch;
+        }
+
+        @media only screen and (max-width: 400px) {
+            .CocktailPage-p {
+                font-size: 1rem;
+            }
         }
 
         .Button-button {
@@ -189,5 +213,11 @@
 @media only screen and (max-width: 600px) {
     #CocktailPage-div {
         margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #CocktailPage-div {
+        margin-left: 0rem;
     }
 }

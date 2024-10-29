@@ -57,6 +57,11 @@
     font-size: 1.5rem;
   }
 }
+@media only screen and (max-width: 400px) {
+  #CocktailPage-div #CocktailPage-section #CocktailPage-sameLine #CocktailPage-category {
+    margin-right: 3rem;
+  }
+}
 #CocktailPage-div #CocktailPage-section #CocktailPage-name {
   font-size: 4rem;
   margin-bottom: 4rem;
@@ -69,6 +74,11 @@
 @media only screen and (max-width: 600px) {
   #CocktailPage-div #CocktailPage-section #CocktailPage-name {
     font-size: 2.25rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #CocktailPage-div #CocktailPage-section #CocktailPage-name {
+    font-size: 2rem;
   }
 }
 #CocktailPage-div #CocktailPage-section #CocktailPage-Image-2 {
@@ -99,6 +109,12 @@
     height: 300px;
   }
 }
+@media only screen and (max-width: 400px) {
+  #CocktailPage-div #CocktailPage-section #CocktailPage-Image-2 {
+    width: 250px;
+    height: 250px;
+  }
+}
 #CocktailPage-div #CocktailPage-section .CocktailPage-h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -122,7 +138,11 @@
 #CocktailPage-div #CocktailPage-section .CocktailPage-p {
   font-size: 1.5rem;
   width: 25ch;
-  max-width: 40ch;
+}
+@media only screen and (max-width: 400px) {
+  #CocktailPage-div #CocktailPage-section .CocktailPage-p {
+    font-size: 1rem;
+  }
 }
 #CocktailPage-div #CocktailPage-section .Button-button {
   margin-top: 5rem;
@@ -157,5 +177,10 @@
 @media only screen and (max-width: 600px) {
   #CocktailPage-div {
     margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #CocktailPage-div {
+    margin-left: 0rem;
   }
 }/*# sourceMappingURL=CocktailPage.css.map */
