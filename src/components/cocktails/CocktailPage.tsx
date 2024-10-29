@@ -46,7 +46,7 @@ const CocktailPage: React.FC<CocktailPageProps> = ({
         <h2 id="CocktailPage-name">{name}</h2>
         <Image
           id="CocktailPage-Image-2"
-          src="https://cocktails.solvro.pl/images/cocktails/negroni.png"
+          src={img}
           width={1000}
           height={1000}
           alt="cocktail image"

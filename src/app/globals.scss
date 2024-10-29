@@ -10,7 +10,7 @@
   padding: 0;
   position: relative;
   color: var(--white);
-  font-family: sans-serif;
+  font-family: var(--font-inter);
   text-decoration: none;
   list-style: none;
   border: none;
@@ -42,7 +42,7 @@ nav {
 }
 
 main {
-    margin-top: 7rem;
+  margin-top: 7rem;
 }
 
 #Home-main {

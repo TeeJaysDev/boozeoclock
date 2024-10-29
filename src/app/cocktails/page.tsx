@@ -51,7 +51,6 @@ const Cocktails: React.FC<SearchParams> = ({ searchParams }) => {
     )
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
         setCocktail(json.data || null); // Assuming `json.data` is a single cocktail object
       })
       .catch((err) => console.error(err));
