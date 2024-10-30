@@ -1,4 +1,4 @@
-# Booze O'clock
+# ![image](https://img.icons8.com/external-flaticons-flat-flat-icons/32/external-sangria-winery-flaticons-flat-flat-icons.png?raw=true) booze o'clock
 
 You can view this project [here](https://boozeoclock.netlify.app/).
 
